@@ -1,3 +1,5 @@
+import banner from '../../assets/banner.jpg'
+
 export function HomePage() {
   return (
     <>
@@ -22,7 +24,7 @@ export function HomePage() {
           </div>
         </div>
 
-        <img src="/src/assets/banner.jpg" width='600' />
+        <img src={banner} width='600' />
       </div>
     </>
   )

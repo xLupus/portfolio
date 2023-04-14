@@ -1,3 +1,6 @@
+import backendLogo from '../../assets/back-end.svg'
+import frontendLogo from '../../assets/front-end.svg'
+
 export function AboutPage() {
   return (
     <div className="flex flex-col items-center px-12 py-24 gap-y-10">
@@ -34,7 +37,7 @@ export function AboutPage() {
 
       <div className="flex gap-6">
         <div className="w-96 px-4 py-8 border flex flex-col justify-center items-center shadow-lg">
-        <img src="/src/assets/back-end.svg" className="w-20 h-20" alt="" />
+        <img src={backendLogo} className="w-20 h-20" alt="" />
 
           <span className="font-bold my-5">BACKEND</span>
 
@@ -42,7 +45,7 @@ export function AboutPage() {
         </div>
 
         <div className="w-96 px-4 py-8 flex flex-col justify-center items-center shadow-lg">
-          <img src="/src/assets/front-end.svg" className="w-20 h-20" alt="" />
+          <img src={frontendLogo} className="w-20 h-20" alt="" />
 
           <span className="font-bold my-5">FRONTEND</span>
 
