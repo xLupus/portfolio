@@ -1,4 +1,4 @@
-import { Route, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
+import { Navigate, Route, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
 import App from "./App";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { HomePage } from "./pages/HomePage";
@@ -11,6 +11,7 @@ export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<App />}>
       <Route path='/' element={<HomePage />} />
+      <Route path='/home' element={<Navigate to='/' />} />
       <Route path='/sobre' element={<AboutPage />} />
       <Route path='/competencias' element={<WhatICanDoPage />} />
       <Route path='/portifolio' element={<PortfolioPage />} />
