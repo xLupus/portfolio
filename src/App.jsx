@@ -3,13 +3,14 @@ import { NavLink, Outlet } from "react-router-dom"
 function App() {
   return (
     <div className="flex">
-      <aside className="flex flex-col items-center h-screen max-w-xs w-full bg-slate-100 py-10">
+      <aside className="flex flex-col items-center h-screen max-w-xs w-full bg-slate-300 py-10">
         <div className="flex-1">
           <h1 className="font-bold mb-24 text-2xl">VINICIUS SOUZA</h1>
 
           <nav className="flex flex-col items-center space-y-4 font-semibold">
             <NavLink to='/'>Home</NavLink>
             <NavLink to='/sobre'>Sobre</NavLink>
+            <NavLink to='/competencias'>O que eu posso fazer</NavLink>
             <NavLink to='/portifolio'>Portifolio</NavLink>
           </nav>
         </div>
