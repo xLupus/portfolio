@@ -4,11 +4,11 @@ import curriculo from '../../assets/curriculo.pdf'
 
 export function AboutPage() {
   return (
-    <div className="flex flex-col items-center px-12 py-24 gap-y-10">
-      <div className="flex items-center gap-x-8">
-        <img src="https://placehold.co/350x500" alt="" />
+    <div className="flex flex-col items-center px-6">
+      <div className="flex items-center gap-x-8 h-screen">
+        <img src="https://placehold.co/400x600" alt="" />
 
-        <div className="max-w-3xl ">
+        <div className="max-w-4xl ">
           <div className="grid grid-cols-2 gap-4 font-bold">
             <span>NOME: <span className='font-normal'>Vinicius do Amaral Souza</span></span>
             <span>TITULO DE TRABALHO: <span className='font-normal'>Desenvolvedor Web</span></span>
@@ -17,6 +17,14 @@ export function AboutPage() {
           </div>
 
           <div className='flex flex-col gap-y-2 py-5 my-5 border-y border-zinc-400'>
+            <span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aspernatur, atque, architecto delectus veritatis quod ad, iusto quasi hic itaque voluptate in. Nemo placeat sint rem, odit numquam illum nobis.
+            </span>
+
+            <span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iusto ab maxime repudiandae officiis, quaerat dolores consectetur magnam delectus aliquid? Quaerat nemo iusto distinctio voluptas eos, minima molestiae corrupti quidem?
+            </span>
+
             <span>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores deserunt reprehenderit atque nam consequatur et corrupti. Expedita omnis, enim sit animi minima, alias ad quasi quia culpa corporis, fugiat magni.
             </span>
@@ -60,62 +68,73 @@ export function AboutPage() {
         </div>
       </div>
 
-      <h1 className="font-semibold">O QUE EU FAÇO</h1>
+      <div className="flex flex-col justify-center items-center  gap-y-10 h-screen">
+        <h1 className="font-semibold">O QUE EU FAÇO</h1>
 
-      <div className="flex flex-wrap justify-center gap-6">
-        <div className="w-96 px-4 py-8 border flex flex-col justify-center items-center shadow-lg">
-          <img src={backendLogo} className="w-20 h-20" alt="" />
+        <div className="flex flex-wrap justify-center gap-6">
+          <div className="w-96 px-4 py-8 border flex flex-col justify-center items-center shadow-lg">
+            <img src={backendLogo} className="w-20 h-20" alt="" />
 
-          <span className="font-bold my-5">BACKEND</span>
+            <span className="font-bold my-5">BACKEND</span>
 
-          <span className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, praesentium odit, officia quos ex voluptatum nam illo enim saepe vel aliquam provident omnis qui. Maiores quas consequuntur officia labore iure!</span>
+            <span className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, praesentium odit, officia quos ex voluptatum nam illo enim saepe vel aliquam provident omnis qui. Maiores quas consequuntur officia labore iure!</span>
+          </div>
+
+          <div className="w-96 px-4 py-8 border flex flex-col justify-center items-center shadow-lg">
+            <img src={frontendLogo} className="w-20 h-20" alt="" draggable='false' />
+
+            <span className="font-bold my-5">FRONTEND</span>
+
+            <span className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, praesentium odit, officia quos ex voluptatum nam illo enim saepe vel aliquam provident omnis qui. Maiores quas consequuntur officia labore iure!</span>
+          </div>
+
+          <div className="w-96 px-4 py-8 border flex flex-col justify-center items-center shadow-lg">
+            <img src={frontendLogo} className="w-20 h-20" alt="" draggable='false' />
+
+            <span className="font-bold my-5">FULLSTACK</span>
+
+            <span className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, praesentium odit, officia quos ex voluptatum nam illo enim saepe vel aliquam provident omnis qui. Maiores quas consequuntur officia labore iure!</span>
+          </div>
         </div>
 
-        <div className="w-96 px-4 py-8 border flex flex-col justify-center items-center shadow-lg">
-          <img src={frontendLogo} className="w-20 h-20" alt="" draggable='false' />
+        <h1 className="font-semibold">COMPETENCIAS</h1>
 
-          <span className="font-bold my-5">FRONTEND</span>
+        <div className="flex gap-x-5">
+          <div className="flex gap-x-2 items-center">
+            <span className="block w-3 h-3 bg-sky-700" /> FORTE
+          </div>
 
-          <span className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, praesentium odit, officia quos ex voluptatum nam illo enim saepe vel aliquam provident omnis qui. Maiores quas consequuntur officia labore iure!</span>
+          <div className="flex gap-x-2 items-center">
+            <span className="block w-3 h-3 bg-green-600" /> CONHECEDOR
+          </div>
+
+          <div className="flex gap-x-2 items-center">
+            <span className="block w-3 h-3 bg-red-500" /> APRENDENDO
+          </div>
+        </div>
+
+        <div className="max-w-6xl flex gap-4 flex-wrap justify-center">
+          <span className="px-3 py-2 bg-sky-700 text-white rounded">HTML5</span>
+          <span className="px-3 py-2 bg-sky-700 text-white rounded">CSS3</span>
+          <span className="px-3 py-2 bg-sky-700 text-white rounded">Javascript</span>
+
+          <span className="px-3 py-2 bg-sky-700 text-white rounded">PHP</span>
+          <span className="px-3 py-2 bg-sky-700 text-white rounded">Laravel</span>
+          <span className="px-3 py-2 bg-green-600 text-white rounded">Node.js</span>
+          <span className="px-3 py-2 bg-green-600 text-white rounded">Express.js</span>
+          <span className="px-3 py-2 bg-green-600 text-white rounded">MySQL</span>
+
+          <span className="px-3 py-2 bg-green-600 text-white rounded">TailwindCSS</span>
+          <span className="px-3 py-2 bg-green-600 text-white rounded">Bootstrap 5</span>
+
+          <span className="px-3 py-2 bg-red-500 text-white rounded">React.js</span>
+
+          <span className="px-3 py-2 bg-red-500 text-white rounded">MongoDB</span>
+
+          <span className="px-3 py-2 bg-red-500 text-white rounded">API Rest</span>
         </div>
       </div>
 
-      <h1 className="font-semibold">COMPETENCIAS</h1>
-
-      <div className="flex gap-x-5">
-        <div className="flex gap-x-2 items-center">
-          <span className="block w-3 h-3 bg-sky-700" /> FORTE
-        </div>
-
-        <div className="flex gap-x-2 items-center">
-          <span className="block w-3 h-3 bg-green-600" /> CONHECEDOR
-        </div>
-
-        <div className="flex gap-x-2 items-center">
-          <span className="block w-3 h-3 bg-red-500" /> APRENDENDO
-        </div>
-      </div>
-
-      <div className="max-w-6xl flex gap-4 flex-wrap justify-center">
-        <span className="px-3 py-2 bg-sky-700 text-white rounded">HTML5</span>
-        <span className="px-3 py-2 bg-sky-700 text-white rounded">CSS3</span>
-        <span className="px-3 py-2 bg-sky-700 text-white rounded">Javascript</span>
-
-        <span className="px-3 py-2 bg-sky-700 text-white rounded">PHP</span>
-        <span className="px-3 py-2 bg-sky-700 text-white rounded">Laravel</span>
-        <span className="px-3 py-2 bg-green-600 text-white rounded">Node.js</span>
-        <span className="px-3 py-2 bg-green-600 text-white rounded">Express.js</span>
-        <span className="px-3 py-2 bg-green-600 text-white rounded">MySQL</span>
-
-        <span className="px-3 py-2 bg-green-600 text-white rounded">TailwindCSS</span>
-        <span className="px-3 py-2 bg-green-600 text-white rounded">Bootstrap 5</span>
-
-        <span className="px-3 py-2 bg-red-500 text-white rounded">React.js</span>
-
-        <span className="px-3 py-2 bg-red-500 text-white rounded">MongoDB</span>
-
-        <span className="px-3 py-2 bg-red-500 text-white rounded">API Rest</span>
-      </div>
     </div>
   )
 }
