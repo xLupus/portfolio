@@ -62,16 +62,18 @@ export function WhatICanDoPage() {
           <span className="px-3 py-2 bg-green-600 text-white rounded">TailwindCSS</span>
           <span className="px-3 py-2 bg-green-600 text-white rounded">Bootstrap 5</span>
 
-          <span className="px-3 py-2 bg-sky-700 text-white rounded">Node.js</span>
-          <span className="px-3 py-2 bg-green-600 text-white rounded">Express.js</span>
-
           <span className="px-3 py-2 bg-sky-700 text-white rounded">PHP</span>
           <span className="px-3 py-2 bg-sky-700 text-white rounded">Laravel</span>
+
           <span className="px-3 py-2 bg-green-600 text-white rounded">MySQL</span>
+
+          <span className="px-3 py-2 bg-sky-700 text-white rounded">Node.js</span>
+          <span className="px-3 py-2 bg-green-600 text-white rounded">Express.js</span>
 
           <span className="px-3 py-2 bg-red-500 text-white rounded">React.js</span>
           <span className="px-3 py-2 bg-red-500 text-white rounded">MongoDB</span>
           <span className="px-3 py-2 bg-red-500 text-white rounded">API Rest</span>
+          <span className="px-3 py-2 bg-red-500 text-white rounded">Typescript</span>
         </div>
       </div>
     </>
