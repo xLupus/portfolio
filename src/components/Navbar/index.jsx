@@ -11,7 +11,7 @@ export function Navbar() {
           </h1>
 
           <nav className="flex flex-col space-y-7 font-semibold">
-            <NavLink to='/' className="flex items-center gap-x-3">
+            <NavLink to='/' className="flex items-center gap-x-3 active:text-yellow-100">
               HOME
             </NavLink>
 
