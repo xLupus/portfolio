@@ -2,10 +2,9 @@ import { HardDrives, Monitor } from '@phosphor-icons/react'
 
 export function WhatICanDoPage() {
   return (
-    <>
-      <div className="flex flex-col justify-center items-center  gap-y-10 h-screen">
+    <section className='self-center px-4 py-10 space-y-10 max-h-screen overflow-y-auto'>
         <div className="flex flex-wrap justify-center gap-6">
-          <div className="w-96 px-4 py-8 border dark:border-0 dark:bg-[#252A37] dark:text-[#9DA6B3] flex flex-col justify-center items-center shadow-lg">
+          <div className="flex flex-col justify-center items-center w-96 px-4 py-8 shadow-lg border dark:border-0 dark:bg-[#252A37] dark:text-[#9DA6B3]  ">
             <HardDrives size={'5rem'} weight="thin" />
 
             <span className="font-bold my-5 dark:text-[#d0d0d8]">BACKEND</span>
@@ -39,7 +38,7 @@ export function WhatICanDoPage() {
           </div>
         </div>
 
-        <div className="flex gap-x-5">
+        <div className="flex justify-center gap-x-5">
           <div className="flex gap-x-2 items-center">
             <span className="block w-3 h-3 bg-green-600 rounded-full" /> CONHECEDOR
           </div>
@@ -70,12 +69,11 @@ export function WhatICanDoPage() {
           <span className="px-3 py-2 bg-green-600 dark:bg-green-800 text-white rounded">Express.js</span>
 
           <span className="px-3 py-2 bg-red-500 dark:bg-red-800 text-white rounded">React.js</span>
-          <span className="px-3 py-2 bg-red-500 dark:bg-red-800 text-white rounded">Styled Components</span>
           <span className="px-3 py-2 bg-red-500 dark:bg-red-800 text-white rounded">MongoDB</span>
           <span className="px-3 py-2 bg-red-500 dark:bg-red-800 text-white rounded">API Rest</span>
           <span className="px-3 py-2 bg-red-500 dark:bg-red-800 text-white rounded">Typescript</span>
         </div>
-      </div>
-    </>
+
+    </section>
   )
 }
