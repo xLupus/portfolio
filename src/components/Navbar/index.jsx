@@ -1,29 +1,30 @@
-import { EnvelopeSimple, GithubLogo, LinkedinLogo, MapPin, Phone } from "@phosphor-icons/react";
+import { EnvelopeSimple, GithubLogo, LinkedinLogo, MapPin, Phone, XSquare } from "@phosphor-icons/react";
 import { NavLink } from "react-router-dom";
 
-export function Navbar() {
+export function Navbar(props) {
+
   return (
     <>
-      <aside className="hidden lg:flex md:flex-col md:items-center h-screen text-sm w-72 bg-[#F5F5FA] dark:bg-[#12141D] dark:text-[#A8A8AF] py-10">
+      <aside className="relative lg:flex md:flex-col md:items-center h-screen text-sm w-72 bg-[#F5F5FA] dark:bg-[#12141D] dark:text-[#A8A8AF] py-10">
         <div className="flex flex-col flex-1 gap-y-16">
           <h1 className="flex items-center gap-x-3 font-bold text-2xl text-center">
             &lt;ViniciusSouza /&gt;
           </h1>
 
           <nav className="flex flex-col space-y-7 font-semibold">
-            <NavLink to='/' className="flex items-center gap-x-3 active:text-yellow-100">
+            <NavLink to='/' className="w-fit flex items-center gap-x-3 hover:text-[#42D392]">
               HOME
             </NavLink>
 
-            <NavLink to='/sobre' className="flex items-center gap-x-3">
+            <NavLink to='/sobre' className="w-fit flex items-center gap-x-3 hover:text-[#42D392]">
               SOBRE
             </NavLink>
 
-            <NavLink to='/competencias' className="flex items-center gap-x-3">
+            <NavLink to='/competencias' className="w-fit flex items-center gap-x-3 hover:text-[#42D392]">
               O QUE EU POSSO FAZER
             </NavLink>
 
-            <NavLink to='/portifolio' className="flex items-center gap-x-3">
+            <NavLink to='/portifolio' className="w-fit flex items-center gap-x-3 hover:text-[#42D392]">
               PORTIFOLIO
             </NavLink>
           </nav>

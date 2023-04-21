@@ -9,5 +9,5 @@
 }
 
 a.active{
-  @apply border-l-2 border-yellow-500 text-yellow-500 pl-2 font-bold;
+  @apply border-l-2 border-[#42D392] text-[#42D392] pl-2 font-bold;
 }

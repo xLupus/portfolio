@@ -1,8 +1,7 @@
 export function AboutPage() {
   return (
-    <div className="flex flex-col items-center px-6">
-      <div className="flex items-center gap-x-8 h-screen">
-        <div className='max-w-6xl dark:text-[#9DA6B3] space-y-3 py-5 my-5 border-y border-zinc-400 leading-8'>
+    <section className="self-center p-6">
+        <div className='max-w-6xl dark:text-[#9DA6B3] space-y-3 py-5 border-y border-zinc-400 leading-8'>
           <img src="https://placehold.co/310x460/252A37/9DA6B3/png" alt="" className="float-left mr-6" />
 
           <p>
@@ -33,7 +32,6 @@ export function AboutPage() {
             Obrigado por visitar meu portfólio e por considerar minha candidatura.
           </p>
         </div>
-      </div>
-    </div>
+    </section>
   )
 }
