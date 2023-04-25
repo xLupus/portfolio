@@ -1,9 +1,10 @@
 export function AboutPage() {
   return (
-    <section className="self-center p-6">
-        <div className='max-w-6xl dark:text-[#9DA6B3] space-y-3 py-5 border-y border-zinc-400 leading-8'>
-          <img src="https://placehold.co/310x460/252A37/9DA6B3/png" alt="" className="float-left mr-6" />
+    <section className="flex-1 flex justify-center items-center">
+      <div className='max-w-6xl max-h-screen overflow-y-auto text-justify  p-6 '>
+        <img src="https://placehold.co/310x460/252A37/9DA6B3/png" alt="" className="float-left mr-6" />
 
+        <div className="dark:text-[#9DA6B3] space-y-3 leading-8">
           <p>
             Olá, meu nome é Vinicius, tenho 22 anos, moro em <strong>São Paulo - Capital</strong> e estou em busca de uma oportunidade para <strong>iniciar minha carreira</strong> como programador. Embora eu ainda não tenha experiência profissional ou trabalho voluntário relacionado à programação, tenho estudado e praticado por conta própria por um período considerável de tempo.
           </p>
@@ -13,7 +14,7 @@ export function AboutPage() {
           </p>
 
           <p>
-            Estudo <strong>Sistemas para Internet</strong> no <strong>Centro Universitário Senac</strong>. Almejo me tornar um desenvolvedor competente para atuar tanto no desenvolvimento de recursos por parte do servidor, quanto do cliente.
+            Estudo <strong>Sistemas para Internet</strong> no <strong>Centro Universitário Senac</strong>, almejando me tornar um desenvolvedor competente para atuar tanto no desenvolvimento de recursos por parte do servidor, quanto do cliente.
           </p>
 
           <p>
@@ -28,10 +29,11 @@ export function AboutPage() {
             Se você está procurando um profissional <strong>dedicado</strong>, <strong>motivado</strong>, com <strong>desejo de aprender</strong> e crescer na área de programação, eu adoraria conversar com você e explorar maneiras de trabalharmos juntos. Entre em contato comigo para conversar! Possuo disponibilidade para trabalhar tanto <strong>home office</strong> quanto <strong>presencial</strong>.
           </p>
 
-          <p>
+          <p className="text-center font-bold">
             Obrigado por visitar meu portfólio e por considerar minha candidatura.
           </p>
         </div>
+      </div>
     </section>
   )
 }
