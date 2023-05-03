@@ -9,7 +9,7 @@ export function WhatICanDoPage() {
 
             <span className="font-bold my-5 dark:text-[#d0d0d8]">BACKEND</span>
 
-            <span className="text-center">
+            <span className="text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, praesentium odit, officia quos ex voluptatum nam illo enim saepe vel aliquam provident omnis qui. Maiores quas consequuntur officia labore iure!
             </span>
           </div>
@@ -19,7 +19,7 @@ export function WhatICanDoPage() {
 
             <span className="font-bold my-5 dark:text-[#d0d0d8]">FRONTEND</span>
 
-            <span className="text-center">
+            <span className="text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, praesentium odit, officia quos ex voluptatum nam illo enim saepe vel aliquam provident omnis qui. Maiores quas consequuntur officia labore iure!
             </span>
           </div>
@@ -32,7 +32,7 @@ export function WhatICanDoPage() {
 
             <span className="font-bold my-5 dark:text-[#d0d0d8]">FULLSTACK</span>
 
-            <span className="text-center">
+            <span className="text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, praesentium odit, officia quos ex voluptatum nam illo enim saepe vel aliquam provident omnis qui. Maiores quas consequuntur officia labore iure!
             </span>
           </div>
