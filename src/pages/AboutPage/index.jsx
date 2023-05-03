@@ -26,7 +26,7 @@ export function AboutPage() {
           </p>
 
           <p>
-            Se você está procurando um profissional <strong>dedicado</strong>, <strong>motivado</strong>, com <strong>desejo de aprender</strong> e crescer na área de programação, eu adoraria conversar com você e explorar maneiras de trabalharmos juntos. Entre em contato comigo para conversar! Possuo disponibilidade para trabalhar tanto <strong>home office</strong> quanto <strong>presencial</strong>.
+            Se você está procurando um profissional <strong>dedicado</strong>, <strong>motivado</strong>, com <strong>desejo de aprender</strong> e crescer na área de programação, eu adoraria conversar com você e explorar maneiras de trabalharmos juntos. Entre em contato comigo para conversar.
           </p>
 
           <p className="text-center font-bold">
